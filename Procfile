@@ -1,0 +1,1 @@
+web: gunicorn --chdir anoxide_app app:app

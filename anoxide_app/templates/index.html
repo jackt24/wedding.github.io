@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="CorgiCoin,Corgi Coin,Corgi Contract AddressCORGI,CorgiCoinBSC,BSC,jt,jack taylor,binance smart chain,pancakeswap">
+  <meta name="description" content="Corgi Coin is the dogecoin of the Binance Smart Chain. With all tokens locked on PancakeSwap and the keys burned, it is 100% community owned. CorgiCoin has 100x lower fees than ERC-20 pups!">
+  <link rel="icon" type="image/png" href={{ url_for('static',filename='img/corgilogo.png') }}> 
+  <script src="https://kit.fontawesome.com/28c28ef405.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+  <!-- https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js -->
+  <!-- https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css -->
+  <!--<?xml version="1.0" encoding="utf-8"?>
+  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+     <loc>https://corgicoin.net</loc>
+     <lastmod>2011-06-27T19:34:00+01:00</lastmod>
+   </url>
+   <url>
+     ...
+   </url>
+  </urlset>-->
+
+  <!-- Google Analytics -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHBLH4W51S"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-DHBLH4W51S');
+  </script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-198240552-1">
+  </script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-198240552-1');
+  </script>
+
+
+  
+  <title>CorgiCoin: the Dogecoin of BSC</title>
+  <link rel="stylesheet" href={{ url_for('static',filename='css/animate.min.css') }}>
+  <link rel="stylesheet" href={{ url_for('static',filename='css/font-awesome/css/font-awesome.css') }}>
+  <link rel="stylesheet" href={{ url_for('static',filename='css/font-awesome/css/font-awesome.min.css') }}>
+  <link rel="stylesheet" href={{ url_for('static',filename='css/bootstrap.min.css') }}>
+  <link rel="stylesheet" href={{ url_for('static',filename='css/component.css') }}>
+  <link rel="stylesheet" href={{ url_for('static',filename='css/style.css') }}>
+
+  <!-- Google web font  -->
+  <!--<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
+  https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700&family=Roboto:wght@100;200;300&display=swap-->
+  
+</head>
+<body id="top" data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
+
+<!--<div class="wrapper">-->
+
+<!-- Preloader section 
+
+<div class="preloader">
+     <div class="sk-spinner sk-spinner-pulse"></div>
+</div>-->
+
+
+
+          <!-- <li><a href="#top" title="CorgiCoin Home"><span>Home</span></a></li> class="smoothScroll"-->
+          <!-- <li><a href="#about" title="About Corgi Coin"><span>About</span></a></li> --> 
+          <!-- <li><a href="#own" title="How to Own CorgiCoin"><span>Own</span></a></li> -->
+          <!-- <li><a href="https://corgicoin.net/whitepaper.pdf" title="Corgi Coin Whitepaper"><span>Whitepaper</span></a></li> -->
+          <!-- <li><a href="#roadmap" title="Roadmap"><span>Roadmap (COMING SOON)</span></a></li> --> 
+          <!-- <li><a href="#join" title="Join or Donate to CorgiCoin"><span>Join</span></a></li> -->
+          <!-- <li><a href="https://corgicoinleaderboard.com" title="CorgiCoin Leaderboard"><span>Leaderboard</span></a></li> -->
+          <!-- <li><a href="#gallery" class="smoothScroll"><span>Gallery</span></a></li> --> 
+          <!-- <li><a href="#contact" class="smoothScroll"><span>Contact</span></a></li>--> 
+
+<!-- Navigation section  -->
+
+
+
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container snap">
+      <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon icon-bar"></span>
+          <span class="icon icon-bar"></span>
+          <span class="icon icon-bar"></span>
+        </button>
+       <!-- <a href="#top" class="navbar-brand smoothScroll">CorgiCoin</a> -->
+      </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#top" title="CorgiCoin Home"><span>Home</span></a></li> 
+            <li><a href="#about" title="About Corgi Coin"><span>About</span></a></li>
+            <li><a href="#own" title="How to Own CorgiCoin"><span>Own</span></a></li>
+            <li><a href="https://corgicoin.net/whitepaper.pdf" title="Corgi Coin Whitepaper"><span>Whitepaper</span></a></li>
+            <li><a href="#join" title="Join"><span>Donate</span></a></li>
+            <li><a href="#roadmap" title="Roadmap"><span>Roadmap</span></a></li>
+            <!--<li><a href="#join" title="Join or Donate to CorgiCoin"><span>Join</span></a></li>-->
+            <!-- <li><a href="https://corgicoinleaderboard.com" title="CorgiCoin Leaderboard"><span>Leaderboard</span></a></li> -->
+            <!--<li><a href="#gallery" class="smoothScroll"><span>Gallery</span></a></li>
+            <li><a href="#contact" class="smoothScroll"><span>Contact</span></a></li>-->
+          </ul>
+       </div>
+
+    </div>
+  </div>
+
+
+<!-- Home section -->
+
+<section id="home">
+  <!--<div class="overlay"></div>-->
+  <div class="container snap">
+    <div class="row">
+      <!--<div class="col-md-offset-1 col-md-10 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">-->
+      <div class="col-md-offset-1 col-md-10 col-sm-12 wow fadeInUp" data-wow-delay="0s">
+          <!-- <link rel="icon" type="image/png" href={{ url_for('static',filename='img/shutterstock_1149814202_rasterized3_32x32.png') }}> -->
+
+        
+        <img src="{{ url_for('static',filename='img/corgilogo.png') }}" title="CorgiCoin" alt="Corgi Coin" width="33%" height="33%">
+        <h1 class="wow fadeInUp" data-wow-delay="0.2s"><b>Corgi</b>Coin</h1>
+        <h2 class="wow fadeInUp" data-wow-delay="0.4s"><span style="letter-spacing:0.1em; font-size:0.8rem; text-transform:none">0x450dCf93160A30BE156A4600802c91BF64dFFD2E</span><br></h2><br> <!--and Environmentally Friendly-->
+        <!--<h2 class="wow fadeInUp" data-wow-delay="0.2s">Equitable, 100%<br>Community Owned, and <br>Environmentally Friendly</h2>-->
+        <span style="color: white; font-size: 18px; font-weight: 800" class="wow fadeInUp" data-wow-delay="0.5s">
+        <!--<a href="https://bscscan.com/token/0x450dCf93160A30BE156A4600802c91BF64dFFD2E">0x450dCf93160A30BE156A4600802c91BF64dFFD2E</a>--><!--0x450dCf93160A30BE156A4600802c91BF64dFFD2E<br>-->
+        Join the discussion at <a href="https://t.me/corgicoinbsc">telegram.me/CorgiCoinBSC</a>!
+        </span>
+        
+        <!--<br/><br/>-->
+        <br>
+        <br>
+
+
+        <!--<div class="col">  -class="md-6 col-sm-6">-->
+          <!-- TODO: smoothScroll has issues 
+        <div class="btn-toolbar" style="padding-left: 15px"> -->
+
+        <a href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x450dCf93160A30BE156A4600802c91BF64dFFD2E" class="btn btn-success btn-lg wow fadeInUp" data-wow-delay="0.6s" target="_blank" title="Find Corgi Coin on PancakeSwap">Find on PancakeSwap</a> <!--</div> --><br>
+
+        
+        <div class="col-md-12 col-sm-12">
+          <ul class="social-icon social-top"> 
+            <li><a href="https://t.me/corgicoinbsc" title="CorgiCoin Telegram" class="fab fa-telegram-plane wow fadeInUp" data-wow-delay="0.7s" target="_blank" style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;"></a> |
+            <li><a href="https://www.reddit.com/r/corgiarmy/" title="Corgi Coin Reddit" class="fab fa-reddit wow fadeInUp" data-wow-delay="0.8s" target="_blank"></a></li> |
+            <li><a href="https://twitter.com/CorgiCoinBSC" title="CorgiCoin Twitter" class="fab fa-twitter wow fadeInUp" data-wow-delay="0.9s" target="_blank"></a></li> |
+            <!-- <li><a href="https://corshi.medium.com/" title="Corgi Coin Medium" class="fab fa-medium-m wow fadeInUp" data-wow-delay="1.0s" target="_blank"></a></li> | -->
+            <li><a href="https://www.instagram.com/realcorgicoin/" title="Corgi Coin Instagram" class="fab fa-instagram wow fadeInUp" data-wow-delay="1.2s"></a></li>
+          </ul>
+      </div>
+
+        <!--<div class="col"> <!---md-6 col-sm-6">
+        <a href="#about" class=" btn btn-success btn-lg wow fadeInUp" data-wow-delay="1.2s">Learn more</a>-->
+      
+        
+      </div>
+
+    </div>
+  <!--</div>-->
+</section>
+
+
+
+
+
+
+
+
+<!-- About section -->
+
+<section id="about" class="blue">
+  <div class="container snap">
+    <div class="margin-adj">
+      <div class="row">
+        <div class='col-md-7 col-sm-6 wow fadeInUp' data-wow-delay="0.2s">
+          <h4>Why is <b>CorgiCoin</b> the superior dogecoin?</h4>
+            <p class="wow fadeInUp skinny"><b>Corgi Coin</b> is the first dogecoin for everyone. Built from head to paw for democratic access, it is <b>100x cheaper</b> to send than comparison ERC-20 pups. </p>
+
+            <p class="wow fadeInUp skinny"><br/><b>All tokens are locked</b> in PancakeSwap and the keys burned. Corgi Coin is truly community owned.</b></p>
+
+            <p class="wow fadeInUp skinny"><br/>Built on the Binance Smart Chain as a BEP-20 contract, CorgiCoin uses a <b>fraction of the electricity</b> of Ethereum tokens. Having fun with dogecoins does not need to harm the environment!</p>
+
+        </div>
+        <div class='col-md-5 wow fadeInUp about-img' data-wow-delay="0.2s"> <img src="{{ url_for('static',filename='img/corgirocket.png') }}" title="Corgi Coin" alt = "Corgi Coin" class="fit-image"></div>
+      </div>
+
+      <div class="row white about-box">
+        <div class='col-md-4 wow fadeInUp about-col' data-wow-delay="0.3s">
+          <h3 class="heading">100% Community Owned, and we mean it</h3>
+              <p class="description">We <a href="https://bscscan.com/tx/0xa7ddc629f3068c45ac03890493386a59ba31d7d6d8498959635b32431c151ea5" title="Corgi Coin BSCScan">locked 100%</a> of the total supply on PancakeSwap and <a href="https://bscscan.com/tx/0x3d3bc1990ee1095060babbd521d30946b91e9d11b364f31343b66c2eb026db6e" title="CorgiCoin Proof">threw away the keys</a>. There is no developer fund, no chunks owned by celebrities and no mining rewards for people with fancy computers. All tokens are up for grabs by pups everywhere!</p>
+        </div>
+        <div class='col-md-4 wow fadeInUp about-col' data-wow-delay="0.4s">
+          <h3 class="heading">Corgi Coin has 100x Lower Fees</h3>
+              <p class="description">Ethereum gas fees have soared to $200 for a simple token exchange, locking everyday pups out of ownership. Corgi Coin is designed from the ground up as a <b><nobr>BEP-20</nobr></b> token on the Binance Smart Chain, so it can be transferred and exchanged for just cents!</p>
+        </div>
+        <div class='col-md-4 wow fadeInUp about-col' data-wow-delay="0.5s">
+          <h3 class="heading">Corgi Coin has 10x fewer tokens</h3>
+              <p class="description">CorgiCoin has a fixed supply of <b>10,000,000,000</b> tokens. That's all the Corgis there are, and all there ever will be.</p>
+        </div>
+      </div>
+
+      
+      <p></p>
+         <center><a href="https://corgicoin.net/whitepaper.pdf" class="btn btn-success btn-lg wow fadeInUp" data-wow-delay="0.5s" target="_blank" title="CorgiCoin Whitepaper">CorgiCoin Whitepaper</a></center>
+
+      <!--<div class="row about-box">-->
+        <div class='wow fadeInUp about-col' data-wow-delay="0.6s">
+          <h3 class="heading">Find Corgi Coin on </h3>
+              <a href='https://coinmarketcap.com/currencies/corgicoin-net/' target="_blank" title="CorgiCoin on CoinMarkrtCap"><img src="{{ url_for('static',filename='img/coinmarketcap.webp') }}" width='245px' height='50px' class='icon' title="CorgiCoin on CoinMarketCap" alt = "CorgiCoin on CoinMarketCap"></a> <br>
+              <a href='https://www.coingecko.com/en/coins/corgicoin' target="_blank" title="CorgiCoin on CoinGecko"><img src="{{ url_for('static',filename='img/logo_coingecko.png') }}" width='187px' height='50px' class='icon' title="CorgiCoin on CoinGecko" alt = "CorgiCoin on CoinGecko"></a> <br>
+              <a href='https://poocoin.app/tokens/0x450dCf93160A30BE156A4600802c91BF64dFFD2E' target="_blank" title="CorgiCoin on PooCoin"><img src="{{ url_for('static',filename='img/logo_poocoin.png') }}" width='50px' height='50px' class='icon' title="Corgi Coin on PooCoin" alt = "Corgi Coin on PooCoin"></a>  <!--  wow fadeInUp data-wow-delay="0.7s"-->
+              <a href='https://charts.bogged.finance/?token=0x450dCf93160A30BE156A4600802c91BF64dFFD2E' target="_blank" title="CorgiCoin on BoggedFinance"><img src="{{ url_for('static',filename='img/logo_boggedfinance.jpg') }}" width='50px' height='50px'  class='icon' title="CorgiCoin on BoggedFinance" alt = "CorgiCoin on BoggedFinance"></a> 
+              <a href='https://coinpaprika.com/coin/corgi-corgicoin/' target="_blank" title="Corgi Coin on CoinPaprika"><img src="{{ url_for('static',filename='img/logo_coinpaprika.png') }}" class='icon' title="CorgiCoin on CoinPaprika" width='50px' height='50px'  alt = "Corgi Coin on CoinPaprika"></a> 
+      <!--  </div>-->
+      </div>
+
+        
+
+       
+       <!--<div class='col-md-7 col-sm-6 wow fadeInUp' data-wow-delay="0.1s">
+          <h4>How is <b>$CORGI</b> different?</h4>
+          We are
+        </div>-->
+
+    </div>
+    </div>
+  </div>
+</section> 
+
+
+
+
+
+<!-- Buy section -->
+
+<section id="own">
+  <div class="container snap">
+    <div class="row">
+      <div class="col-md-7 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
+        <div class="about-thumb">
+          <h4>Become a <a href="https://bscscan.com/token/0x450dCf93160A30BE156A4600802c91BF64dFFD2E" title="Corgi Coin Contract Address" target="_blank">Corgi Coin</a> owner</h4>
+          <ol>
+            <li><h5>Install <a href="https://metamask.io/" title="Get CorgiCoin into your wallet" target="_blank">MetaMask</a></h5>
+             Metamask is your passport to the Binance Smart Chain. After installing, <a href="https://academy.binance.com/en/articles/connecting-metamask-to-binance-smart-chain" title="A prerequesite to owning Corgi Coin" target="_blank">connect</a> your MetaMask wallet to BSC.</li>
+            <li><h5>Buy BNB and send to MetaMask</h5>
+              Purchase BNB on Binance or another exchange. Then withdraw the BNB to your MetaMask address.</li>
+            <li><h5>Swap BNB for CorgiCoin on <a href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x450dCf93160A30BE156A4600802c91BF64dFFD2E" title="Exchange CorgiCoin on PancakeSwap" target="_blank">PancakeSwap</a></h5>
+              Specify the Corgi Coin contract address: <a href="https://bscscan.com/token/0x450dCf93160A30BE156A4600802c91BF64dFFD2E" title="Corgi Coin Contract Address" target="_blank"><small>0x450dCf93160A30BE156A4600802c91BF64dFFD2E</small></a> <br>You may need to increase slippage in Settings. Make sure to leave a small amount of BNB for network fees!</li>
+            <li><h5>Enjoy your CorgiCoin!</h5> To view your new pups in MetaMask, click Add Token and enter the <a href="https://bscscan.com/token/0x450dCf93160A30BE156A4600802c91BF64dFFD2E" target="_blank">Corgi Coin contract address</a>. Enjoy!</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="col-md-5 col-sm-6 wow fadeInUp padding-top" data-wow-delay="0.2s"> <!-- about-img"> -->
+          img
+        <img src="{{ url_for('static',filename='img/pancakeswapLogo.png') }}" title="How to Buy CorgiCoin" alt = "Buy CorgiCoin on PancakeSwap" width="75%" height="75%"> <!-- class="img-responsive img-circle">-->
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="join">
+  <div class="container snap">
+    <div class="row">
+
+      <div class="col-md-offset-2 col-md-8 col-sm-12 wow fadeInUp" data-wow-delay="0.2s">
+        <div class="section-title">
+          <img src="{{ url_for('static',filename='img/moon2.png') }}" title="Corgi Coin to the moon!" width="300" height="300" alt = 'CorgiCoin to the moon'>
+            <h4 class="padding-top40">Donate to Corgi!</h4>
+            <p>Corgi is 100% owned by the community but this does mean that we rely entirely on donations for marketing and development</p><br>
+            <p>5% of all donations will be sent to the <a href="https://www.welshcorgileague.org">Welsh Corgi League</a> who do incredible work helping real Corgis!</p><br>  
+            <p>In line with our ethos, all marketing decisions will be democratically decided in the telegram by the community</p><br>
+            <p>BSC Address: <br> <small><b>0xF36F2524331377a1758774670216ec5B618Df2A6</b></small></p>
+
+            <div class="col-md-12 col-sm-12">
+              <ul class="social-icon"> 
+                <li><a href="https://t.me/corgicoinbsc" title="CorgiCoin Telegram" class="fab fa-telegram-plane wow fadeInUp" data-wow-delay="0.3s" target="_blank"></a></li> 
+                <!-- <li><a href="https://corshi.medium.com/" title="Corgi Coin Medium" class="fab fa-medium-m wow fadeInUp" data-wow-delay="0.4s" target="_blank"></a></li>  -->
+                <li><a href="https://www.reddit.com/r/corgiarmy/" title="CorgiCoin Reddit" class="fab fa-reddit wow fadeInUp" data-wow-delay="0.5s" target="_blank"></a></li>
+                <li><a href="https://twitter.com/CorgiCoinBSC" title="Corgi Coin Twitter" class="fab fa-twitter wow fadeInUp" data-wow-delay="0.6s" target="_blank"></a></li>  
+                <li><a href="https://www.instagram.com/realcorgicoin/" title="Corgi Coin Instagram" class="fab fa-instagram wow fadeInUp" target="_blank" data-wow-delay="0.8s"></a></li>
+              </ul>
+            <!-- <p class = "wow fadeInUp" data-wow-delay="0.9s"><b>Donations:</b> CorgiCoin is a 100% community owned token. You can help out the Corgi Coin cause by donating BNB to the official marketing wallet at <b>0x419D1Fc99acdf38C04d8Ded742D9cc8770936079</b>. We will use these donations to fund promotions and influencers to help spread the word. Thanks to all our generous pups!  -->          
+            </div>
+        </div>
+      </div>
+      <!--<div class="row">-->
+    </div>
+</section> 
+
+<!-- Roadmap section -->
+
+<section id="roadmap">
+  <div class="container snap">
+    <div class="row">
+      <div class="col-md-7 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
+        <div class="about-thumb">
+          <h4>Roadmap</h4>
+          <ol>
+            <li><h5>Q4 2021</h5>
+              - AMA discussing all things Corgi with the community<br>- Curation of a new Corgi NFT collection
+            <br>- Sale of NFT Collection to raise marketing funds<br>- Marketing campaign using the funds raised from donations and NFT sales. This will be driven by the community with public votes in the Telegram</li>
+            <li><h5>Q1 2022</h5>
+              - Further marketing campaigns featuring influencers accross social media<br>- Charity partnerships to raise money for Corgis and spread our brand<br>
+            - Further website development and gamification</li>
+            <li><h5>Q2 2022 and beyond</a></h5>
+              - Exchange listings<br>
+            - Research into token utility i.e. staking</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="col-md-5 col-sm-6 wow fadeInUp padding-top" data-wow-delay="0.2s"> <!-- about-img"> -->
+          img
+        <img src="{{ url_for('static',filename='img/corgiwalk.gif') }}" title="How to Buy CorgiCoin" alt = "Buy CorgiCoin on PancakeSwap" width="75%" height="75%"> <!-- class="img-responsive img-circle">-->
+      </div>
+    </div>
+  </div>
+</section>
+</div> <!-- wrapper -->
+
+<!-- Footer section -->
+
+<footer>
+  <div class="container">
+      <div class="row"><p></div>
+       <p><div class="row">
+      Disclaimer. The information provided on this website does not constitute a recommendation to buy or sell any product, token, or coin discussed. Buying and selling tokens is inherently risky, and the authors of this website do not accept any liability for any losses that may occur from buying and selling tokens. Check with local regulations before purchasing any cryptocurrency. &copy;CorgiCoin 2021
+
+
+    </div>
+      
+    </div>
+        
+  </div>
+</footer>
+
+<!-- Back top -->
+<a href="#" class="go-top"><i class="fa fa-angle-up"></i></a>
+
+<!-- Javascript  -->
+<script src={ url_for('static',filename='js/jquery.js') }}></script>
+<script src={ url_for('static',filename='js/bootstrap.min.js') }}></script>
+<script src={ url_for('static',filename='js/modernizr.custon.js') }}></script>
+<script src={ url_for('static',filename='js/toucheffects.js') }}></script>
+<script src={ url_for('static',filename='js/smoothscroll.js') }}></script>
+<script src={ url_for('static',filename='js/wow.min.js') }}></script>
+<script src={ url_for('static',filename='js/custom.js') }}></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script> -->
+
+
+</body>
+</html>
