@@ -44,27 +44,35 @@
 	<link href="https://fonts.googleapis.com/css?family=Montez" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
 	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
+	<<!-- Animate.css -->
+	<link rel="stylesheet" href={{ url_for('static',filename='css/animate.css') }}>
+	<!-- <link rel="stylesheet" href="css/animate.css"> -->
 	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href={{ url_for('static',filename='css/icomoon.css') }}>
+	<!-- <link rel="stylesheet" href="css/icomoon.css"> -->
 	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href={{ url_for('static',filename='css/bootstrap.css') }}>
+	<!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
 	<!-- Superfish -->
-	<link rel="stylesheet" href="css/superfish.css">
+	<link rel="stylesheet" href={{ url_for('static',filename='css/superfish.css') }}>
+	<!-- <link rel="stylesheet" href="css/superfish.css"> -->
 	<!-- Magnific Popup -->
-	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href={{ url_for('static',filename='css/magnific-popup.css') }}>
+	<!-- <link rel="stylesheet" href="css/magnific-popup.css"> -->
 	
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href={{ url_for('static',filename='css/style.css') }}>
+	<!-- <link rel="stylesheet" href="css/style.css"> -->
 
 
+	
 	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script src={ url_for('static',filename='js/modernizr-2.6.2.min.js') }}></script>
+	<!-- <script src="js/modernizr-2.6.2.min.js"></script> -->
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
+	<script src={ url_for('static',filename='js/respond.min.js') }}></script>
+	<!-- <script src="js/respond.min.js"></script> -->
 	<![endif]-->
-
 	</head>
 	<body>
 		<div id="fh5co-wrapper">
@@ -302,7 +310,8 @@
 	<!-- Google Map -->
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
 	<!-- jQuery -->
-	<script src="dist/scripts.min.js"></script>
+	<script src={ url_for('static',filename='dist/scripts.min.js') }}></script>
+	<!-- <script src="dist/scripts.min.js"></script> -->
 	</body>
 </html>
 
