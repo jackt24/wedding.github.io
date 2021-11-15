@@ -13,8 +13,9 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-@app.route('/form', methods=['POST'])
+@app.route('/form', methods=['GET', 'POST'])
 def form():
+    attending = request.form.get("attending")
     name = request.form.get("name")
     email = request.form.get("email")
     special = request.form.get("special")
