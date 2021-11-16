@@ -7,39 +7,12 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Nuptial &mdash; 100% Free Fully Responsive HTML5 Template by FREEHTML5.co</title>
+	<title>Jack and Lucys Wedding</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
-	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
-	<meta name="author" content="FREEHTML5.CO" />
-
-  <!-- 
-	//////////////////////////////////////////////////////
-
-	FREE HTML5 TEMPLATE 
-	DESIGNED & DEVELOPED by FREEHTML5.CO
-		
-	Website: 		http://freehtml5.co/
-	Email: 			info@freehtml5.co
-	Twitter: 		http://twitter.com/fh5co
-	Facebook: 		https://www.facebook.com/fh5co
-
-	//////////////////////////////////////////////////////
-	 -->
-
-  	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
-
+	<meta name="author" content="Jack Tasylor" />
+ 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="shortcut icon" href="{{ url_for('static',filename='img/weddingfav.png') }} ">
 	
 	<link href="https://fonts.googleapis.com/css?family=Montez" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
@@ -97,46 +70,26 @@
 			</div>
 		</div>
 
-		<!--  -->
-
-		<!-- end:header-top -->
 		
 		<div id="fh5co-couple" class="fh5co-section-gray">
 			<div class="container">
-				<div class="row">
-					<div class="col-sm">
-						<!-- <div class="col-md-5 col-sm-5 col-xs-5 nopadding"> -->
-						<!-- <img src="images/groom.jpg" class="img-responsive" style="align-items: center;"> -->
-					</div>
-					<div class="col-sm">
-						<!-- <div class="col-md-5 col-sm-5 col-xs-5 nopadding"> -->
-						<img src="{{ url_for('static',filename='img/jackandlucy.jpeg') }}" class="img-fluid usimage">
-						<h3 style="text-align: center;">Jack Taylor and Lucy Bamber</h3>
-					</div>
-					<div class="col-sm">
-						<!-- <div class="col-md-5 col-sm-5 col-xs-5 nopadding"> -->
-						<!-- <img src="images/groom.jpg" class="img-responsive" style="align-items: center;"> -->
-					</div>
-						<!-- </div> -->
-						<!-- <div class="col-md-2 col-sm-2 col-xs-2 nopadding"><h2 class="amp-center"><i class="icon-heart"></i></h2></div>
-						<div class="col-md-5 col-sm-5 col-xs-5 nopadding">
-							<img src="images/bride.jpg" class="img-responsive" >
-							<h3>Lucy Bamber</h3>
-						</div> -->
-					</div>
-				</div>
+				
+				<img src="{{ url_for('static',filename='img/jackandlucy.jpeg') }}" class="img-fluid center-block shadow-lg p-3 mb-5 bg-body rounded" style="padding-bottom: 40px;">
+				<h3 style="text-align: center;">Jack Taylor and Lucy Bamber</h3>
+				
 				<div class="row animate-box">
 					<div class="col-md-8 col-md-offset-2">
 						<div class="col-md-12 text-center heading-section">
 							<h2>Are Getting Married</h2>
 							<p>On <strong>September 10th, 2022</strong> at <strong>The Old Rectory, Hastings</strong></p>
-							<p>Address:<br>The Old Rectory<br>Harold Road, Hastings<br>East Sussex<br>TN35 5ND</p>
+							<p>Address:<br><a href="https://theoldrectoryhastings.co.uk/">The Old Rectory</a><br>Harold Road, Hastings<br>East Sussex<br>TN35 5ND</p>
 
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+		<button id="btn_link" class="btn btn-default"> <a href="https://bit.ly/3wvB2O2"> Continue </a> </button>
 		<!-- <div id="fh5co-countdown">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center animate-box">
@@ -150,16 +103,17 @@
 			</div>
 		</div> -->
 
-		<div id="fh5co-started" style="background-image: url({{ url_for('static', filename='img/oldrectory2.jpg') }})" data-stellar-background-ratio="0.5">
-		<div class="overlay"></div>
+		<div id="fh5co-started" style="background-image: url({{ url_for('static', filename='img/oldrectory2.jpg') }}); backg" data-stellar-background-ratio="0.5">
+		<!-- <div class="overlay"></div> -->
 			<div class="container">
 				<div class="row animate-box">
 					<div class="col-md-8 col-md-offset-2 text-center heading-section">
 						<h2>Are You Attending?</h2>
-						<p>Please Fill-up the form to notify you that you're attending. Thanks.
+						<p>Please click the link below and complete the form to confirm your attendance</p>
 					</div>
 				</div>
-				<div class="row animate-box">
+
+				<!-- <div class="row animate-box">
 					<div class="col-md-10 col-md-offset-1">
 						<form class="form-inline form" action="/form" name="form"> 
 							<div class="col-md-4 col-sm-4">
@@ -200,7 +154,12 @@
 							</div>
 						</form>
 					</div>
-				</div>
+				</div> -->
+				<!-- <a href="https://bit.ly/3wvB2O2" class="btn btn-info" role="button">RSVP</a> -->
+				
+				<!-- <a class="btn btn-primary" href="https://bit.ly/3wvB2O2" role="button">RSVP</a> -->
+				<!-- <button class="btn btn-primary" onclick="window.location.href='https://bit.ly/3wvB2O2'">RSVP</button> -->
+				<button id="btn_link" class="btn btn-default"> <a href="https://bit.ly/3wvB2O2"> RSVP </a> </button>
 			</div>
 		</div>
 		
