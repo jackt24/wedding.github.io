@@ -939,6 +939,7 @@ figure {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  font-weight: bolder;
 }
 
 .btn.btn-primary {
