@@ -629,13 +629,13 @@ figure {
 #fh5co-countdown .countdown span {
   margin: 0 30px;
   display: inline-block;
-  font-family:Garamond, Georgia, serif, cursive;
+  font-family: 'Dancing Script', cursive;
 }
 
 #fh5co-countdown .countdown small {
   display: block;
   font-size: 16px;
-  font-family: "Open Sans", garamond, sans-serif;
+  font-family: 'Dancing Script', cursive;
 }
 
 .couple-wrap {
